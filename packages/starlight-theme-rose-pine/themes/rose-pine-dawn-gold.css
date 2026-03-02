@@ -1,5 +1,5 @@
 @layer rose-pine {
-  :root[data-theme='light'] {
+  :root[data-theme="light"] {
     --sl-color-accent-low: hsl(35, 81%, 31%);
     --sl-color-accent: hsl(35, 81%, 56%);
     --sl-color-accent-high: hsl(35, 81%, 100%);
