@@ -1,19 +1,31 @@
 {
   "name": "starlight-theme-rose-pine-monorepo",
   "version": "0.0.1",
-  "license": "MIT",
-  "description": "Soho vibes for Starlight",
-  "author": "trueberryless-org",
-  "type": "module",
-  "engines": {
-    "node": "^18.17.1 || ^20.3.0 || >=21.0.0"
-  },
-  "packageManager": "pnpm@9.6.0",
   "private": true,
+  "description": "Soho vibes for Starlight",
   "homepage": "https://github.com/trueberryless-org/starlight-theme-rose-pine",
+  "bugs": {
+    "url": "https://github.com/trueberryless-org/starlight-theme-rose-pine/issues"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/trueberryless-org/starlight-theme-rose-pine.git"
   },
-  "bugs": "https://github.com/trueberryless-org/starlight-theme-rose-pine/issues"
+  "license": "MIT",
+  "author": "trueberryless <trueberryless@gmail.com> (https://trueberryless.org)",
+  "type": "module",
+  "scripts": {
+    "version": "pnpm changeset version && pnpm i --no-frozen-lockfile"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.5.2",
+    "@changesets/cli": "^2.29.8",
+    "@trivago/prettier-plugin-sort-imports": "6.0.2",
+    "prettier": "3.8.1",
+    "prettier-plugin-astro": "0.14.1"
+  },
+  "packageManager": "pnpm@10.10.0",
+  "engines": {
+    "node": "^18.17.1 || ^20.3.0 || >=21.0.0"
+  }
 }
