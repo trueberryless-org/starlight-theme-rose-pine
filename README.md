@@ -7,9 +7,7 @@
 
 ## Usage
 
-1. Open App
-2. Under settings, import `rose-pine.theme`
-3. Select `Rosé Pine` from the themes dropdown
+1. Read documentation under https://starlight-theme-rose-pine.trueberryless.org/getting-started/
 
 ## Gallery
 
