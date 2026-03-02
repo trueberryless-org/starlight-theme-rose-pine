@@ -1,4 +1,4 @@
-# `starlight-rose-pine`
+# `starlight-theme-rose-pine`
 
 Soho vibes for Starlight
 

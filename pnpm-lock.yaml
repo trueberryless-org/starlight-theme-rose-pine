@@ -19,11 +19,11 @@ importers:
       sharp:
         specifier: ^0.34.5
         version: 0.34.5
-      starlight-rose-pine:
+      starlight-theme-rose-pine:
         specifier: workspace:*
-        version: link:../packages/starlight-rose-pine
+        version: link:../packages/starlight-theme-rose-pine
 
-  packages/starlight-rose-pine:
+  packages/starlight-theme-rose-pine:
     devDependencies:
       '@astrojs/starlight':
         specifier: ^0.37.6

@@ -1,6 +1,6 @@
 import starlight from "@astrojs/starlight";
 import { defineConfig } from "astro/config";
-import starlightRosePine from "starlight-rose-pine";
+import starlightRosePine from "starlight-theme-rose-pine";
 
 export default defineConfig({
   integrations: [
@@ -8,7 +8,7 @@ export default defineConfig({
       favicon: "/favicon.png",
       editLink: {
         baseUrl:
-          "https://github.com/trueberryless-org/starlight-rose-pine/edit/main/docs/",
+          "https://github.com/trueberryless-org/starlight-theme-rose-pine/edit/main/docs/",
       },
       plugins: [starlightRosePine()],
       sidebar: [
@@ -20,7 +20,7 @@ export default defineConfig({
       ],
       social: [
         {
-          href: "https://github.com/trueberryless-org/starlight-rose-pine",
+          href: "https://github.com/trueberryless-org/starlight-theme-rose-pine",
           icon: "github",
           label: "GitHub",
         },
