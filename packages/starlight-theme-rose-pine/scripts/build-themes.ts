@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+
 import colors from "../colors.json";
 
 const themesDir = path.join(process.cwd(), "themes");
@@ -100,7 +101,7 @@ for (const [flavorName, palette] of Object.entries(colors.flavors)) {
 
     fs.writeFileSync(
       path.join(themesDir, `rose-pine-${flavorName}-${accentName}.css`),
-      css,
+      css
     );
   }
 }

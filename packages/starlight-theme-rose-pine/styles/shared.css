@@ -1,195 +1,195 @@
 @layer starlight, rose-pine;
 
 @layer rose-pine {
-    :root {
-        --sl-color-text: var(--sl-color-white);
-    }
+  :root {
+    --sl-color-text: var(--sl-color-white);
+  }
 
-    .sidebar-content a,
-    .right-sidebar-panel a,
-    .sidebar-content summary {
-        color: var(--sl-color-white) !important;
-    }
+  .sidebar-content a,
+  .right-sidebar-panel a,
+  .sidebar-content summary {
+    color: var(--sl-color-white) !important;
+  }
 
-    .sidebar-content a[aria-current="page"],
-    .right-sidebar-panel a[aria-current="true"] {
-        color: var(--sl-color-black) !important;
-        background-color: var(--sl-color-accent-high) !important;
-        font-weight: 600;
-    }
+  .sidebar-content a[aria-current="page"],
+  .right-sidebar-panel a[aria-current="true"] {
+    color: var(--sl-color-black) !important;
+    background-color: var(--sl-color-accent-high) !important;
+    font-weight: 600;
+  }
 
-    :root[data-theme="light"] .sidebar-content a[aria-current="page"],
-    :root[data-theme="light"] .right-sidebar-panel a[aria-current="true"] {
-        color: var(--sl-color-accent) !important;
-    }
+  :root[data-theme="light"] .sidebar-content a[aria-current="page"],
+  :root[data-theme="light"] .right-sidebar-panel a[aria-current="true"] {
+    color: var(--sl-color-accent) !important;
+  }
 
-    .sl-flex.edit-margin a,
-    .pagination-links a {
-        color: var(--sl-color-white) !important;
-    }
+  .sl-flex.edit-margin a,
+  .pagination-links a {
+    color: var(--sl-color-white) !important;
+  }
 
-    .sl-flex.edit-margin svg {
-        color: var(--sl-color-accent) !important;
-    }
+  .sl-flex.edit-margin svg {
+    color: var(--sl-color-accent) !important;
+  }
 
-    header,
-    .right-sidebar,
-    .content-panel {
-        border-color: var(--sl-color-gray-5);
-    }
+  header,
+  .right-sidebar,
+  .content-panel {
+    border-color: var(--sl-color-gray-5);
+  }
 
-    .expressive-code pre {
-        --code-background: var(--sl-color-gray-6) !important;
-    }
+  .expressive-code pre {
+    --code-background: var(--sl-color-gray-6) !important;
+  }
 
-    .expressive-code .title {
-        background: var(--sl-color-gray-6) !important;
-    }
+  .expressive-code .title {
+    background: var(--sl-color-gray-6) !important;
+  }
 
-    .sidebar-content .sl-badge {
-        background-color: var(--sl-color-gray-6) !important;
-        border: 1px solid var(--sl-color-gray-5);
-        color: var(--sl-color-white) !important;
-    }
+  .sidebar-content .sl-badge {
+    background-color: var(--sl-color-gray-6) !important;
+    border: 1px solid var(--sl-color-gray-5);
+    color: var(--sl-color-white) !important;
+  }
 
-    .sidebar-content .sl-badge.default {
-        border-color: var(--sl-color-accent-high);
-        background-color: var(--sl-color-accent-high) !important;
-        color: var(--sl-color-black) !important;
-    }
+  .sidebar-content .sl-badge.default {
+    border-color: var(--sl-color-accent-high);
+    background-color: var(--sl-color-accent-high) !important;
+    color: var(--sl-color-black) !important;
+  }
 
-    :root[data-theme="light"] .sidebar-content .sl-badge.default {
-        color: var(--sl-color-accent) !important;
-    }
+  :root[data-theme="light"] .sidebar-content .sl-badge.default {
+    color: var(--sl-color-accent) !important;
+  }
 
-    .sl-badge {
-        background-color: transparent !important;
-    }
+  .sl-badge {
+    background-color: transparent !important;
+  }
 
-    .sl-badge.default {
-        background-color: color-mix(
-            in srgb,
-            var(--sl-color-accent),
-            transparent 90%
-        ) !important;
-        border: 1px solid var(--sl-color-accent-low);
-        color: var(--sl-color-accent) !important;
-    }
+  .sl-badge.default {
+    background-color: color-mix(
+      in srgb,
+      var(--sl-color-accent),
+      transparent 90%
+    ) !important;
+    border: 1px solid var(--sl-color-accent-low);
+    color: var(--sl-color-accent) !important;
+  }
 
-    .sl-badge.note {
-        background-color: color-mix(
-            in srgb,
-            var(--sl-color-blue),
-            transparent 90%
-        ) !important;
-        border: 1px solid var(--sl-color-blue-low);
-        color: var(--sl-color-blue) !important;
-    }
+  .sl-badge.note {
+    background-color: color-mix(
+      in srgb,
+      var(--sl-color-blue),
+      transparent 90%
+    ) !important;
+    border: 1px solid var(--sl-color-blue-low);
+    color: var(--sl-color-blue) !important;
+  }
 
-    .sl-badge.success {
-        background-color: color-mix(
-            in srgb,
-            var(--sl-color-green),
-            transparent 90%
-        ) !important;
-        border: 1px solid var(--sl-color-green-low);
-        color: var(--sl-color-green) !important;
-    }
+  .sl-badge.success {
+    background-color: color-mix(
+      in srgb,
+      var(--sl-color-green),
+      transparent 90%
+    ) !important;
+    border: 1px solid var(--sl-color-green-low);
+    color: var(--sl-color-green) !important;
+  }
 
-    .sl-badge.tip {
-        background-color: color-mix(
-            in srgb,
-            var(--sl-color-purple),
-            transparent 90%
-        ) !important;
-        border: 1px solid var(--sl-color-purple-low);
-        color: var(--sl-color-purple) !important;
-    }
+  .sl-badge.tip {
+    background-color: color-mix(
+      in srgb,
+      var(--sl-color-purple),
+      transparent 90%
+    ) !important;
+    border: 1px solid var(--sl-color-purple-low);
+    color: var(--sl-color-purple) !important;
+  }
 
-    .sl-badge.caution {
-        background-color: color-mix(
-            in srgb,
-            var(--sl-color-orange),
-            transparent 90%
-        ) !important;
-        border: 1px solid var(--sl-color-orange-low);
-        color: var(--sl-color-orange) !important;
-    }
+  .sl-badge.caution {
+    background-color: color-mix(
+      in srgb,
+      var(--sl-color-orange),
+      transparent 90%
+    ) !important;
+    border: 1px solid var(--sl-color-orange-low);
+    color: var(--sl-color-orange) !important;
+  }
 
-    .sl-badge.danger {
-        background-color: color-mix(
-            in srgb,
-            var(--sl-color-red),
-            transparent 90%
-        ) !important;
-        border: 1px solid var(--sl-color-red-low);
-        color: var(--sl-color-red) !important;
-    }
+  .sl-badge.danger {
+    background-color: color-mix(
+      in srgb,
+      var(--sl-color-red),
+      transparent 90%
+    ) !important;
+    border: 1px solid var(--sl-color-red-low);
+    color: var(--sl-color-red) !important;
+  }
 
-    .starlight-aside {
-        background-color: transparent !important;
-        border-inline-start-width: 3px;
-    }
+  .starlight-aside {
+    background-color: transparent !important;
+    border-inline-start-width: 3px;
+  }
 
-    .starlight-aside--note {
-        --sl-color-asides-text-accent: var(--sl-color-blue);
-        --sl-color-asides-border: var(--sl-color-blue);
-        background-color: color-mix(
-            in srgb,
-            var(--sl-color-blue),
-            transparent 92%
-        ) !important;
-    }
+  .starlight-aside--note {
+    --sl-color-asides-text-accent: var(--sl-color-blue);
+    --sl-color-asides-border: var(--sl-color-blue);
+    background-color: color-mix(
+      in srgb,
+      var(--sl-color-blue),
+      transparent 92%
+    ) !important;
+  }
 
-    .starlight-aside--tip {
-        --sl-color-asides-text-accent: var(--sl-color-purple);
-        --sl-color-asides-border: var(--sl-color-purple);
-        background-color: color-mix(
-            in srgb,
-            var(--sl-color-purple),
-            transparent 92%
-        ) !important;
-    }
+  .starlight-aside--tip {
+    --sl-color-asides-text-accent: var(--sl-color-purple);
+    --sl-color-asides-border: var(--sl-color-purple);
+    background-color: color-mix(
+      in srgb,
+      var(--sl-color-purple),
+      transparent 92%
+    ) !important;
+  }
 
-    .starlight-aside--caution {
-        --sl-color-asides-text-accent: var(--sl-color-orange);
-        --sl-color-asides-border: var(--sl-color-orange);
-        background-color: color-mix(
-            in srgb,
-            var(--sl-color-orange),
-            transparent 92%
-        ) !important;
-    }
+  .starlight-aside--caution {
+    --sl-color-asides-text-accent: var(--sl-color-orange);
+    --sl-color-asides-border: var(--sl-color-orange);
+    background-color: color-mix(
+      in srgb,
+      var(--sl-color-orange),
+      transparent 92%
+    ) !important;
+  }
 
-    .starlight-aside--danger {
-        --sl-color-asides-text-accent: var(--sl-color-red);
-        --sl-color-asides-border: var(--sl-color-red);
-        background-color: color-mix(
-            in srgb,
-            var(--sl-color-red),
-            transparent 92%
-        ) !important;
-    }
+  .starlight-aside--danger {
+    --sl-color-asides-text-accent: var(--sl-color-red);
+    --sl-color-asides-border: var(--sl-color-red);
+    background-color: color-mix(
+      in srgb,
+      var(--sl-color-red),
+      transparent 92%
+    ) !important;
+  }
 
-    .card {
-        border-radius: 0.75rem;
-        background-color: var(--sl-color-gray-5);
-        border-color: var(--sl-color-gray-4);
-    }
+  .card {
+    border-radius: 0.75rem;
+    background-color: var(--sl-color-gray-5);
+    border-color: var(--sl-color-gray-4);
+  }
 
-    .sl-link-card .description {
-        color: var(--sl-color-gray-1);
-    }
+  .sl-link-card .description {
+    color: var(--sl-color-gray-1);
+  }
 
-    .tab [aria-selected="false"] {
-        color: var(--sl-color-gray-1);
-    }
+  .tab [aria-selected="false"] {
+    color: var(--sl-color-gray-1);
+  }
 
-    starlight-file-tree .comment {
-        color: var(--sl-color-gray-2);
-    }
+  starlight-file-tree .comment {
+    color: var(--sl-color-gray-2);
+  }
 
-    footer .meta a {
-        color: var(--sl-color-gray-2);
-    }
+  footer .meta a {
+    color: var(--sl-color-gray-2);
+  }
 }
