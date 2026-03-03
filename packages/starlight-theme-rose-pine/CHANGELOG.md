@@ -1,5 +1,11 @@
 # starlight-theme-rose-pine
 
+## 0.1.2
+
+### Patch Changes
+
+- [`9feac40`](https://github.com/trueberryless-org/starlight-theme-rose-pine/commit/9feac404d9c112ffc92de2739619461a4e8bc7ea) Thanks [@trueberryless](https://github.com/trueberryless)! - Lower Starlight peer dependency to `>=0.36`
+
 ## 0.1.1
 
 ### Patch Changes
