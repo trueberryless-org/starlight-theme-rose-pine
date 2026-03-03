@@ -25,7 +25,7 @@ export default defineConfig({
           label: "GitHub",
         },
       ],
-      title: "Starlight Rose Pine",
+      title: "Starlight Rosé Pine",
     }),
   ],
 });
