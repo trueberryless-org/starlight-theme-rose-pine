@@ -73,7 +73,7 @@
       transparent 90%
     ) !important;
     border: 1px solid var(--sl-color-accent-low);
-    color: var(--sl-color-accent) !important;
+    color: var(--sl-color-accent-high) !important;
   }
 
   .sl-badge.note {
@@ -83,7 +83,7 @@
       transparent 90%
     ) !important;
     border: 1px solid var(--sl-color-blue-low);
-    color: var(--sl-color-blue) !important;
+    color: var(--sl-color-blue-high) !important;
   }
 
   .sl-badge.success {
@@ -93,7 +93,7 @@
       transparent 90%
     ) !important;
     border: 1px solid var(--sl-color-green-low);
-    color: var(--sl-color-green) !important;
+    color: var(--sl-color-green-high) !important;
   }
 
   .sl-badge.tip {
@@ -103,7 +103,7 @@
       transparent 90%
     ) !important;
     border: 1px solid var(--sl-color-purple-low);
-    color: var(--sl-color-purple) !important;
+    color: var(--sl-color-purple-high) !important;
   }
 
   .sl-badge.caution {
@@ -113,7 +113,7 @@
       transparent 90%
     ) !important;
     border: 1px solid var(--sl-color-orange-low);
-    color: var(--sl-color-orange) !important;
+    color: var(--sl-color-orange-high) !important;
   }
 
   .sl-badge.danger {
@@ -123,7 +123,7 @@
       transparent 90%
     ) !important;
     border: 1px solid var(--sl-color-red-low);
-    color: var(--sl-color-red) !important;
+    color: var(--sl-color-red-high) !important;
   }
 
   .starlight-aside {
