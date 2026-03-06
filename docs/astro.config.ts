@@ -2,7 +2,14 @@ import starlight from "@astrojs/starlight";
 import { defineConfig } from "astro/config";
 import starlightRosePine from "starlight-theme-rose-pine";
 
+const site =
+  (process.env["CONTEXT"] === "production"
+    ? process.env["URL"]
+    : process.env["DEPLOY_PRIME_URL"]) ??
+  "https://starlight-theme-rose-pine.netlify.app/";
+
 export default defineConfig({
+  site,
   integrations: [
     starlight({
       favicon: "/favicon.png",
@@ -10,6 +17,23 @@ export default defineConfig({
         baseUrl:
           "https://github.com/trueberryless-org/starlight-theme-rose-pine/edit/main/docs/",
       },
+      head: [
+        {
+          tag: "meta",
+          attrs: {
+            property: "og:image",
+            content: new URL("og.jpg", site).href,
+          },
+        },
+        {
+          tag: "meta",
+          attrs: {
+            property: "og:image:alt",
+            content:
+              "Starlight theme heavily inspired by the timeless design of the legacy Astro documentation.",
+          },
+        },
+      ],
       plugins: [starlightRosePine()],
       sidebar: [
         {
