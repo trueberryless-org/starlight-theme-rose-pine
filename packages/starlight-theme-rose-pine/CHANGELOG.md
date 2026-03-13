@@ -1,5 +1,15 @@
 # starlight-theme-rose-pine
 
+## 0.2.0
+
+### Minor Changes
+
+- [#9](https://github.com/trueberryless-org/starlight-theme-rose-pine/pull/9) [`eaf59e5`](https://github.com/trueberryless-org/starlight-theme-rose-pine/commit/eaf59e5ec0a7a938a3db2df37b19d2c77c336aee) Thanks [@trueberryless](https://github.com/trueberryless)! - Adds support for Astro v6, drops support for Astro v5.
+
+  ⚠️ **BREAKING CHANGE:** The minimum supported version of Starlight is now `0.38.0`.
+
+  Please follow the [upgrade guide](https://github.com/withastro/starlight/releases/tag/%40astrojs%2Fstarlight%400.38.0) to update your project.
+
 ## 0.1.2
 
 ### Patch Changes
