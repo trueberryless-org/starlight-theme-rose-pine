@@ -1,5 +1,6 @@
 import starlight from "@astrojs/starlight";
 import { defineConfig } from "astro/config";
+import starlightLinksValidator from "starlight-links-validator";
 import starlightRosePine from "starlight-theme-rose-pine";
 
 const site =
@@ -34,7 +35,12 @@ export default defineConfig({
           },
         },
       ],
-      plugins: [starlightRosePine()],
+      plugins: [
+        starlightRosePine(),
+        starlightLinksValidator({
+          exclude: ["#_"],
+        }),
+      ],
       sidebar: [
         {
           label: "Start Here",
