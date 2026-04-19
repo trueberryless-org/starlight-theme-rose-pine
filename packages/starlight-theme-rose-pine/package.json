@@ -30,8 +30,8 @@
     "build": "tsx scripts/build-themes.ts"
   },
   "devDependencies": {
-    "@astrojs/starlight": "^0.38.1",
-    "astro": "^6.0.4",
+    "@astrojs/starlight": "^0.38.3",
+    "astro": "^6.1.8",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   },
