@@ -33,7 +33,7 @@
     "@astrojs/starlight": "^0.38.1",
     "astro": "^6.0.4",
     "tsx": "^4.21.0",
-    "typescript": "^5.9.3"
+    "typescript": "^6.0.3"
   },
   "peerDependencies": {
     "@astrojs/starlight": ">=0.38"
