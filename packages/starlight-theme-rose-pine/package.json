@@ -8,7 +8,7 @@
     "rose pine",
     "soho vibes"
   ],
-  "homepage": "https://starlight-theme-rose-pine.trueberryless.org",
+  "homepage": "https://starlight-theme-rose-pine.netlify.app/",
   "bugs": {
     "url": "https://github.com/trueberryless-org/starlight-theme-rose-pine/issues"
   },
@@ -18,7 +18,7 @@
     "directory": "packages/starlight-theme-rose-pine"
   },
   "license": "MIT",
-  "author": "trueberryless <trueberryless@gmail.com> (https://trueberryless.org)",
+  "author": "trueberryless <trueberryless@gmail.com> (https://felixs.dev)",
   "sideEffects": false,
   "type": "module",
   "exports": {
