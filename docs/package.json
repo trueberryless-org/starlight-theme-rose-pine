@@ -26,7 +26,7 @@
     "@astrojs/starlight": "^0.41.1",
     "astro": "^6.4.8",
     "sharp": "^0.35.2",
-    "starlight-links-validator": "^0.25.1",
+    "starlight-links-validator": "^0.25.2",
     "starlight-theme-rose-pine": "workspace:*"
   },
   "packageManager": "pnpm@11.1.2",
