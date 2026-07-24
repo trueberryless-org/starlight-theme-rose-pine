@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@astrojs/starlight": "^0.41.2",
-    "astro": "^6.4.8",
+    "astro": "^7.1.1",
     "sharp": "^0.35.3",
     "starlight-links-validator": "^0.25.2",
     "starlight-theme-rose-pine": "workspace:*"
