@@ -1,26 +1,27 @@
 import type { StarlightPlugin } from "@astrojs/starlight/types";
 
-type DarkFlavor = "main" | "moon";
-type LightFlavor = "dawn";
-type Accent = "love" | "gold" | "rose" | "pine" | "foam" | "iris";
+import {
+  type StarlightThemeRosePineConfig,
+  type StarlightThemeRosePineUserConfig,
+  validateConfig,
+} from "./libs/config";
+import { getThemeStylesheets } from "./libs/theme";
 
-interface Config {
-  dark?: { flavor?: DarkFlavor; accent?: Accent };
-  light?: { flavor?: LightFlavor; accent?: Accent };
-}
+export type { StarlightThemeRosePineConfig, StarlightThemeRosePineUserConfig };
 
-export default function createPlugin(config?: Config): StarlightPlugin {
-  const { dark, light } = config ?? {};
+export default function starlightThemeRosePine(
+  userConfig?: StarlightThemeRosePineUserConfig
+): StarlightPlugin {
+  const config = validateConfig(userConfig);
+
   return {
     name: "starlight-theme-rose-pine",
     hooks: {
-      "config:setup": ({ config, updateConfig }) => {
+      "config:setup"({ config: starlightConfig, updateConfig }) {
         updateConfig({
           customCss: [
-            ...(config.customCss ?? []),
-            "starlight-theme-rose-pine/styles/shared.css",
-            `starlight-theme-rose-pine/themes/rose-pine-${dark?.flavor ?? "main"}-${dark?.accent ?? "pine"}.css`,
-            `starlight-theme-rose-pine/themes/rose-pine-${light?.flavor ?? "dawn"}-${light?.accent ?? "pine"}.css`,
+            ...(starlightConfig.customCss ?? []),
+            ...getThemeStylesheets(config),
           ],
         });
       },
