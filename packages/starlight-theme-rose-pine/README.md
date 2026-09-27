@@ -5,11 +5,11 @@
 
 <p align="center">All natural pine, faux fur and a bit of soho vibes for the classy minimalist</p>
 
-## Usage
+## Documentation
 
-1. Open App
-2. Under settings, import `rose-pine.theme`
-3. Select `Rosé Pine` from the themes dropdown
+Want to get started immediately?
+
+Check out the [`starlight-theme-rose-pine` getting started guide](https://starlight-theme-rose-pine.netlify.app/getting-started/).
 
 ## Gallery
 
@@ -25,14 +25,8 @@
 
 <img width="256" alt="Rosé Pine Dawn with Starlight" src="https://raw.githubusercontent.com/trueberryless-org/starlight-theme-rose-pine/main/assets/dawn.png" />
 
-## Thanks to
+## License
 
-- [Felix Schneider](https://github.com/trueberryless)
+Licensed under the MIT License, Copyright © trueberryless.
 
-## Contributing
-
-Modify `colors.json` using Rosé Pine variables, then build variants:
-
-```sh
-pnpm build
-```
+See [LICENSE](https://github.com/trueberryless-org/starlight-theme-rose-pine/blob/main/LICENSE) for more information.
