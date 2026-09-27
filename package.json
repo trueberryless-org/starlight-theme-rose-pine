@@ -8,7 +8,7 @@
   "type": "module",
   "scripts": {
     "build": "pnpm --filter starlight-theme-rose-pine-docs build",
-    "build:themes": "node packages/starlight-theme-rose-pine/scripts/build-themes.ts",
+    "build:themes": "node --experimental-strip-types packages/starlight-theme-rose-pine/scripts/build-themes.ts",
     "check": "pnpm --filter starlight-theme-rose-pine-docs astro sync && astro check --noSync",
     "dev": "pnpm --filter starlight-theme-rose-pine-docs dev",
     "format": "prettier . --write --cache --ignore-unknown",
