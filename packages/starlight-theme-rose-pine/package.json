@@ -30,16 +30,16 @@
     "build": "tsx scripts/build-themes.ts"
   },
   "devDependencies": {
-    "@astrojs/starlight": "^0.41.4",
+    "@astrojs/starlight": "^0.42.0",
     "astro": "^6.4.8",
-    "tsx": "^4.23.1",
+    "tsx": "^4.23.13",
     "typescript": "^5.9.3"
   },
   "peerDependencies": {
     "@astrojs/starlight": ">=0.38"
   },
   "engines": {
-    "node": ">=22.23.1"
+    "node": ">=22.23.2"
   },
   "publishConfig": {
     "access": "public"
