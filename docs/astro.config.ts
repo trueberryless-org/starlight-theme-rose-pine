@@ -4,10 +4,10 @@ import starlightLinksValidator from "starlight-links-validator";
 import starlightRosePine from "starlight-theme-rose-pine";
 
 const site =
-  (process.env["CONTEXT"] === "production"
-    ? process.env["URL"]
-    : process.env["DEPLOY_PRIME_URL"]) ??
-  "https://starlight-theme-rose-pine.netlify.app/";
+  (process.env.CONTEXT === "deploy-preview" ||
+  process.env.CONTEXT === "branch-deploy"
+    ? process.env.DEPLOY_PRIME_URL
+    : process.env.URL) ?? "https://starlight-theme-rose-pine.netlify.app";
 
 export default defineConfig({
   site,
@@ -30,8 +30,7 @@ export default defineConfig({
           tag: "meta",
           attrs: {
             property: "og:image:alt",
-            content:
-              "Starlight theme heavily inspired by the timeless design of the legacy Astro documentation.",
+            content: "Soho vibes for Starlight.",
           },
         },
       ],
