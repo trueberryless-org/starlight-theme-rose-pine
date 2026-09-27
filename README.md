@@ -5,9 +5,17 @@
 
 <p align="center">All natural pine, faux fur and a bit of soho vibes for the classy minimalist</p>
 
-## Usage
+## Documentation
 
-1. Read documentation under https://starlight-theme-rose-pine.trueberryless.org/getting-started/
+Read the [Starlight Rosé Pine docs](https://starlight-theme-rose-pine.netlify.app).
+
+## Package
+
+If you are looking for the Starlight plugin package, you can find it in the [`packages/starlight-theme-rose-pine/`](https://github.com/trueberryless-org/starlight-theme-rose-pine/tree/main/packages/starlight-theme-rose-pine) directory.
+
+## Project structure
+
+This project uses pnpm workspaces to develop a single Starlight plugin from the `packages/starlight-theme-rose-pine/` directory. A Starlight documentation site is also available in the `docs/` directory that is also used for testing and demonstrating the Starlight plugin.
 
 ## Gallery
 
@@ -23,14 +31,16 @@
 
 <img width="256" alt="Rosé Pine Dawn with Starlight" src="https://raw.githubusercontent.com/trueberryless-org/starlight-theme-rose-pine/main/assets/dawn.png" />
 
-## Thanks to
-
-- [Felix Schneider](https://github.com/trueberryless)
-
 ## Contributing
 
-Modify `colors.json` using Rosé Pine variables, then build variants:
+Modify [`colors.json`](https://github.com/trueberryless-org/starlight-theme-rose-pine/blob/main/packages/starlight-theme-rose-pine/colors.json) using Rosé Pine variables, then build the theme variants:
 
 ```sh
-pnpm build
+pnpm build:themes
 ```
+
+## License
+
+Licensed under the MIT License, Copyright © trueberryless.
+
+See [LICENSE](https://github.com/trueberryless-org/starlight-theme-rose-pine/blob/main/LICENSE) for more information.

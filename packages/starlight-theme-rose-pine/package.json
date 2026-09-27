@@ -1,47 +1,46 @@
 {
   "name": "starlight-theme-rose-pine",
   "version": "0.2.0",
-  "description": "Soho vibes for Starlight",
-  "keywords": [
-    "starlight",
-    "theme",
-    "rose pine",
-    "soho vibes"
-  ],
-  "homepage": "https://starlight-theme-rose-pine.netlify.app/",
-  "bugs": {
-    "url": "https://github.com/trueberryless-org/starlight-theme-rose-pine/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/trueberryless-org/starlight-theme-rose-pine.git",
-    "directory": "packages/starlight-theme-rose-pine"
-  },
   "license": "MIT",
+  "description": "Starlight theme to bring the soho vibes of the Rosé Pine palette to your documentation.",
   "author": "trueberryless <trueberryless@gmail.com> (https://felixs.dev)",
-  "sideEffects": false,
   "type": "module",
   "exports": {
     ".": "./index.ts",
     "./styles/*": "./styles/*",
-    "./themes/*": "./themes/*"
-  },
-  "scripts": {
-    "build": "tsx scripts/build-themes.ts"
+    "./themes/*": "./themes/*",
+    "./package.json": "./package.json"
   },
   "devDependencies": {
-    "@astrojs/starlight": "^0.42.0",
-    "astro": "^6.4.8",
-    "tsx": "^4.23.13",
-    "typescript": "^5.9.3"
+    "@astrojs/starlight": "^0.42.4",
+    "astro": "^7.3.5"
   },
   "peerDependencies": {
-    "@astrojs/starlight": ">=0.38"
+    "@astrojs/starlight": ">=0.42.0"
   },
   "engines": {
-    "node": ">=22.23.2"
+    "node": ">=22.12.0"
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "sideEffects": false,
+  "keywords": [
+    "starlight",
+    "plugin",
+    "theme",
+    "rose-pine",
+    "soho-vibes",
+    "documentation",
+    "astro",
+    "withastro",
+    "astro-integration"
+  ],
+  "homepage": "https://starlight-theme-rose-pine.netlify.app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trueberryless-org/starlight-theme-rose-pine.git",
+    "directory": "packages/starlight-theme-rose-pine"
+  },
+  "bugs": "https://github.com/trueberryless-org/starlight-theme-rose-pine/issues"
 }
