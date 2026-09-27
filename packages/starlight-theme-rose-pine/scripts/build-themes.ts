@@ -30,9 +30,9 @@ function getThemeCss(p: Palette, accentHex: string): string {
 
   return `@layer rose-pine {
   :root${p.type === "light" ? '[data-theme="light"]' : ""} {
-    --sl-color-accent-low: ${getHslStr(accentHex, isDark ? -45 : -25)};
+    --sl-color-accent-low: ${getHslStr(accentHex, isDark ? -45 : 45)};
     --sl-color-accent: ${getHslStr(accentHex)};
-    --sl-color-accent-high: ${getHslStr(accentHex, isDark ? 25 : 45)};
+    --sl-color-accent-high: ${getHslStr(accentHex, isDark ? 25 : -25)};
 
     --sl-color-white: ${p.text};
     --sl-color-gray-1: ${p.subtle};
