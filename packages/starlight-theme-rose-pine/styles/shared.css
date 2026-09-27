@@ -20,7 +20,8 @@
 
   :root[data-theme="light"] .sidebar-content a[aria-current="page"],
   :root[data-theme="light"] .right-sidebar-panel a[aria-current="true"] {
-    color: var(--sl-color-accent) !important;
+    color: var(--sl-color-accent-high) !important;
+    background-color: var(--sl-color-accent-low) !important;
   }
 
   .sl-flex.edit-margin a,
@@ -59,7 +60,9 @@
   }
 
   :root[data-theme="light"] .sidebar-content .sl-badge.default {
-    color: var(--sl-color-accent) !important;
+    border-color: var(--sl-color-accent-low);
+    background-color: var(--sl-color-accent-low) !important;
+    color: var(--sl-color-accent-high) !important;
   }
 
   .sl-badge {

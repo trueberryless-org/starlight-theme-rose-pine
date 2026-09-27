@@ -1,5 +1,23 @@
 # starlight-theme-rose-pine
 
+## 0.3.0
+
+### Minor Changes
+
+- [#56](https://github.com/trueberryless-org/starlight-theme-rose-pine/pull/56) [`58adf33`](https://github.com/trueberryless-org/starlight-theme-rose-pine/commit/58adf331d996e4bb2c7c63dba68da1bf17ecec72) Thanks [@trueberryless-bot](https://github.com/trueberryless-bot)! - Adds support for Astro v7, drops support for Astro v6.
+  
+  ⚠️ **BREAKING CHANGE:** The minimum supported version of Starlight is now `0.42.0`.
+  
+  Please follow the [upgrade guide](https://github.com/withastro/starlight/releases/tag/%40astrojs%2Fstarlight%400.42.0) to update your project.
+
+### Patch Changes
+
+- [#56](https://github.com/trueberryless-org/starlight-theme-rose-pine/pull/56) [`58adf33`](https://github.com/trueberryless-org/starlight-theme-rose-pine/commit/58adf331d996e4bb2c7c63dba68da1bf17ecec72) Thanks [@trueberryless-bot](https://github.com/trueberryless-bot)! - Refactors the plugin internals and removes unused stylesheets from the published package.
+
+- [#56](https://github.com/trueberryless-org/starlight-theme-rose-pine/pull/56) [`58adf33`](https://github.com/trueberryless-org/starlight-theme-rose-pine/commit/58adf331d996e4bb2c7c63dba68da1bf17ecec72) Thanks [@trueberryless-bot](https://github.com/trueberryless-bot)! - Fixes low color contrast of accent colors in light mode, e.g. for default badges, the current sidebar and table of contents links, and focused search results.
+
+- [#56](https://github.com/trueberryless-org/starlight-theme-rose-pine/pull/56) [`58adf33`](https://github.com/trueberryless-org/starlight-theme-rose-pine/commit/58adf331d996e4bb2c7c63dba68da1bf17ecec72) Thanks [@trueberryless-bot](https://github.com/trueberryless-bot)! - Adds validation of the theme configuration to report a readable error when an unsupported `flavor` or `accent` is used.
+
 ## 0.2.0
 
 ### Minor Changes
