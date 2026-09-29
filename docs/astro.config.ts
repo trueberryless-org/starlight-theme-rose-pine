@@ -13,6 +13,10 @@ export default defineConfig({
   site,
   integrations: [
     starlight({
+      credits: true,
+      components: {
+        Footer: "./src/components/Footer.astro",
+      },
       favicon: "/favicon.png",
       editLink: {
         baseUrl:
