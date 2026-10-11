@@ -1,9 +1,30 @@
 {
   "name": "starlight-theme-rose-pine",
   "version": "0.3.0",
-  "license": "MIT",
   "description": "Starlight theme to bring the soho vibes of the Rosé Pine palette to your documentation.",
+  "keywords": [
+    "starlight",
+    "plugin",
+    "theme",
+    "rose-pine",
+    "soho-vibes",
+    "documentation",
+    "astro",
+    "withastro",
+    "astro-integration"
+  ],
+  "homepage": "https://starlight-theme-rose-pine.netlify.app/",
+  "bugs": {
+    "url": "https://github.com/trueberryless-org/starlight-theme-rose-pine/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trueberryless-org/starlight-theme-rose-pine.git",
+    "directory": "packages/starlight-theme-rose-pine"
+  },
+  "license": "MIT",
   "author": "trueberryless <trueberryless@gmail.com> (https://felixs.dev)",
+  "sideEffects": false,
   "type": "module",
   "exports": {
     ".": "./index.ts",
@@ -23,24 +44,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "sideEffects": false,
-  "keywords": [
-    "starlight",
-    "plugin",
-    "theme",
-    "rose-pine",
-    "soho-vibes",
-    "documentation",
-    "astro",
-    "withastro",
-    "astro-integration"
-  ],
-  "homepage": "https://starlight-theme-rose-pine.netlify.app",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/trueberryless-org/starlight-theme-rose-pine.git",
-    "directory": "packages/starlight-theme-rose-pine"
-  },
-  "bugs": "https://github.com/trueberryless-org/starlight-theme-rose-pine/issues"
+  }
 }

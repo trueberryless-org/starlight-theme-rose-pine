@@ -27,6 +27,6 @@ Check out the [`starlight-theme-rose-pine` getting started guide](https://starli
 
 ## License
 
-Licensed under the MIT License, Copyright © trueberryless.
+Licensed under the MIT license, Copyright © trueberryless.
 
 See [LICENSE](https://github.com/trueberryless-org/starlight-theme-rose-pine/blob/main/LICENSE) for more information.
